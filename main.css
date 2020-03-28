@@ -1,0 +1,21 @@
+/* TITLE OF WEBSITE */
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+/* BACKGROUND COLOUR */
+body{
+    background-color: rgb(253, 241, 227);
+}
+
+/* TEXT PROPERTIES */
+h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
