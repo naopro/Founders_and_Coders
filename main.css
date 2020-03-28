@@ -1,15 +1,21 @@
 /* TITLE OF WEBSITE */
+#pg-title{
+    background-color: rgb(194, 183, 207);
+    padding: 25px;
+    
+}
+
+/* BACKGROUND COLOUR */
+body{
+    background-color: rgb(244, 235, 229);
+}
+
+/* TEXT PROPERTIES */
 h1{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 
-/* BACKGROUND COLOUR */
-body{
-    background-color: rgb(253, 241, 227);
-}
-
-/* TEXT PROPERTIES */
 h2{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -18,4 +24,18 @@ h2{
 h3{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+
+/* FOOTER PROPERTIES */
+footer{
+    background-color: rgb(194, 183, 207);
+    font-family: 'Courier';
+    text-align: center;
+    padding: 10px;
 }
