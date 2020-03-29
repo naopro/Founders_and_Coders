@@ -9,11 +9,6 @@
     justify-content: space-between;
 }
 
-/* BACKGROUND COLOUR */
-/* body {
-    background-color: rgb(251, 242, 231);
-} */
-
 /* BACKGROUND IMAGE */
 .opener {
     display: flex;
@@ -87,7 +82,7 @@ p {
     margin-right: -10px;
 }
 
-.how-content {
+.content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -98,7 +93,7 @@ p {
     margin-right: -10px;
 }
 
-.how-desc {
+.desc {
     text-align: center;
     background-color: rgb(251, 242, 231);
     height: fit-content;
@@ -108,25 +103,110 @@ p {
     border: 3px groove grey;
 }
 
-
-
-
-#why-title {
-    text-align: center;
-    background-color: rgb(218, 199, 240, 0.3);
-    padding: 30px 5px;
-    box-shadow: 0px 0px 5px 0px rgb(212, 207, 207);
+.content-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(./images/canvas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     margin-left: -10px;
     margin-right: -10px;
 }
 
-#why-content{
-    padding: 10px;
-    height: 400px;
-    border-top: 0.8px dashed #D0B8C9;
+.desc-2 {
+    text-align: center;
+    background-color: rgb(251, 242, 231);
+    height: fit-content;
+    width: fit-content;
+    margin-top: 60px;
+    padding: 20px;
+    border: 3px groove grey;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(./images/canvas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     margin-left: -10px;
     margin-right: -10px;
+}
 
+.desc-3 {
+    text-align: center;
+    background-color: rgb(251, 242, 231);
+    height: fit-content;
+    width: fit-content;
+    margin-top: 60px;
+    padding: 20px;
+    border: 3px groove grey;
+}
+
+.content-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(./images/canvas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.desc-4 {
+    text-align: center;
+    background-color: rgb(251, 242, 231);
+    height: fit-content;
+    width: fit-content;
+    margin-top: 60px;
+    padding: 20px;
+    border: 3px groove grey;
+}
+
+.content-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(./images/canvas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.desc-5 {
+    text-align: center;
+    background-color: rgb(251, 242, 231);
+    height: fit-content;
+    width: fit-content;
+    margin-top: 60px;
+    padding: 20px;
+    border: 3px groove grey;
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(./images/canvas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.summary-desc {
+    text-align: center;
+    background-color: rgb(251, 242, 231);
+    height: fit-content;
+    width: fit-content;
+    margin-top: 60px;
+    padding: 20px;
+    border: 3px groove grey;
+    margin-bottom: 90px;
 }
 
 /* FOOTER PROPERTIES */
