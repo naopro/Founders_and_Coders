@@ -74,14 +74,16 @@ p {
     font-weight: 200;
 }
 
+/* How does a lawyer... */
 .how-title {
     text-align: center;
     background-color: rgb(234, 224, 245);
-    padding: 25px;
+    padding: 10px;
     margin-left: -10px;
     margin-right: -10px;
 }
 
+/* CONTENT PROPERTIES */
 .content {
     display: flex;
     flex-direction: row;
