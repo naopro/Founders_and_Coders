@@ -1,6 +1,6 @@
 /* TITLE BANNER */
 .pg-title {
-    background-color: rgb(218, 199, 240, 0.3);
+    background-color: rgb(234, 224, 245);
     padding: 5px;
     margin-top: -10px;
     margin-left: -10px;
@@ -10,9 +10,9 @@
 }
 
 /* BACKGROUND COLOUR */
-body {
+/* body {
     background-color: rgb(251, 242, 231);
-}
+} */
 
 /* BACKGROUND IMAGE */
 .opener {
@@ -64,6 +64,7 @@ h2 {
 }
 
 h3 {
+    font-size: xxx-large;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
@@ -78,31 +79,37 @@ p {
     font-weight: 200;
 }
 
-#how-title {
+.how-title {
     text-align: center;
-    background-color: rgb(218, 199, 240, 0.3);
+    background-color: rgb(234, 224, 245);
     padding: 25px;
     margin-left: -10px;
     margin-right: -10px;
 }
 
-
-#how-content {
-    padding: 10px;
-    height: 200px;
-    border-top: 0.8px dashed #D0B8C9;
-    border-bottom: 0.8px dashed #D0B8C9;
-    margin-left: -10px;
-    margin-right: -10px;
+.how-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-image: url(./images/canvas.jpg);
     background-size: cover;
     background-attachment: fixed;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
-#article, h3 {
-    font-size: xxx-large;
-    font-family: 'Courier New', Courier, monospace;
+.how-desc {
+    text-align: center;
+    background-color: rgb(251, 242, 231);
+    height: fit-content;
+    width: fit-content;
+    margin-top: 60px;
+    padding: 20px;
+    border: 3px groove grey;
 }
+
+
+
 
 #why-title {
     text-align: center;
@@ -119,6 +126,7 @@ p {
     border-top: 0.8px dashed #D0B8C9;
     margin-left: -10px;
     margin-right: -10px;
+
 }
 
 /* FOOTER PROPERTIES */
