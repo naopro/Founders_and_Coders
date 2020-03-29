@@ -1,4 +1,4 @@
-/* TITLE OF WEBSITE */
+/* TITLE BANNER */
 .pg-title {
     background-color: rgb(218, 199, 240, 0.4);
     padding: 15px;
@@ -14,7 +14,11 @@ body {
     background-color: rgb(251, 242, 231);
 }
 
-#opener {
+/* BACKGROUND IMAGE */
+.opener {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     height: 610px;
     background-image: url(./images/canvas.jpg);
     background-size: cover;
@@ -23,6 +27,14 @@ body {
     margin-right: -10px;
 }
 
+/* PIC OF NAOMI */
+.nao-pic {
+    margin-left: 20px;
+    border-radius: 20%;
+    border: 3px solid violet;
+}
+
+/* FIRST TWO LOGOS */
 .logo {
     border-radius: 50%;
 }
@@ -31,7 +43,7 @@ body {
     background-color: whitesmoke;
 }
 
-/* TEXT PROPERTIES */
+/* GENERAL TEXT PROPERTIES */
 h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
