@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 610px;
+    height: 590px;
     background-image: url(./images/canvas.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -32,6 +32,11 @@ body {
     margin-left: 20px;
     border-radius: 20%;
     border: 3px solid violet;
+}
+
+.info {
+    text-align: center;
+    background-color: rgb(251, 242, 231, 0.5);
 }
 
 /* FIRST TWO LOGOS */
@@ -118,6 +123,7 @@ p {
     margin-left: -10px;
     margin-right: -10px;
 }
+
 
 /* FOOTER PROPERTIES */
 footer {
