@@ -1,7 +1,7 @@
 /* TITLE BANNER */
 .pg-title {
-    background-color: rgb(218, 199, 240, 0.4);
-    padding: 15px;
+    background-color: rgb(218, 199, 240, 0.3);
+    padding: 5px;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
@@ -17,7 +17,7 @@ body {
 /* BACKGROUND IMAGE */
 .opener {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     height: 590px;
     background-image: url(./images/canvas.jpg);
@@ -29,14 +29,18 @@ body {
 
 /* PIC OF NAOMI */
 .nao-pic {
-    margin-left: 20px;
-    border-radius: 20%;
+    margin-top: 50px;
+    border-radius: 10%;
     border: 3px solid violet;
 }
 
-.info {
-    text-align: center;
-    background-color: rgb(251, 242, 231, 0.5);
+.info-box {
+    padding: 30px;
+    text-align: justify;
+    background-color: rgb(251, 242, 231);
+    height: fit-content;
+    width: fit-content;
+    margin-top: 170px;
 }
 
 /* FIRST TWO LOGOS */
@@ -64,19 +68,24 @@ h3 {
     font-weight: 400;
 }
 
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
 p {
     font-family: 'Inter', sans-serif;
     font-weight: 200;
 }
 
-
 #how-title {
     text-align: center;
-    background-color: rgb(218, 199, 240, 0.4);
-    padding: 30px;
+    background-color: rgb(218, 199, 240, 0.3);
+    padding: 10px;
     margin-left: -10px;
     margin-right: -10px;
 }
+
 
 #how-content{
     padding: 10px;
@@ -87,24 +96,14 @@ p {
     margin-right: -10px;
 }
 
-#who-title {
+#why-title {
     text-align: center;
-    background-color: rgb(218, 199, 240, 0.4);
-    padding: 30px;
+    background-color: rgb(218, 199, 240, 0.3);
+    padding: 30px 5px;
+    box-shadow: 0px 0px 5px 0px rgb(212, 207, 207);
     margin-left: -10px;
     margin-right: -10px;
 }
-
-
-#who-content{
-    padding: 10px;
-    height: 200px;
-    border-top: 0.8px dashed #D0B8C9;
-    border-bottom: 0.8px dashed #D0B8C9;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-
 
 #why-content{
     padding: 10px;
@@ -113,17 +112,6 @@ p {
     margin-left: -10px;
     margin-right: -10px;
 }
-
-
-#why-title {
-    text-align: center;
-    background-color: rgb(218, 199, 240, 0.4);
-    padding: 30px 5px;
-    box-shadow: 0px 0px 5px 0px rgb(212, 207, 207);
-    margin-left: -10px;
-    margin-right: -10px;
-}
-
 
 /* FOOTER PROPERTIES */
 footer {
