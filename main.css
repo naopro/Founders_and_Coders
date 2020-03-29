@@ -1,10 +1,12 @@
 /* TITLE OF WEBSITE */
-#pg-title {
+.pg-title {
     background-color: rgb(218, 199, 240, 0.4);
     padding: 15px;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* BACKGROUND COLOUR */
@@ -21,8 +23,12 @@ body {
     margin-right: -10px;
 }
 
-.logos {
-    float: right;
+.logo {
+    border-radius: 50%;
+}
+
+.logo:hover {
+    background-color: whitesmoke;
 }
 
 /* TEXT PROPERTIES */
