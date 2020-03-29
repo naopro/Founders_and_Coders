@@ -21,6 +21,10 @@ body {
     margin-right: -10px;
 }
 
+.logos {
+    float: right;
+}
+
 /* TEXT PROPERTIES */
 h1 {
     font-family: 'Inter', sans-serif;
@@ -69,7 +73,6 @@ p {
 }
 
 
-
 #who-content{
     padding: 10px;
     height: 200px;
@@ -96,14 +99,6 @@ p {
     box-shadow: 0px 0px 5px 0px rgb(212, 207, 207);
     margin-left: -10px;
     margin-right: -10px;
-}
-
-#why-title, span.lawyer-text {
-    font-family: 'Prata', serif;
-}
-
-#why-title, span.w-dev-text {
-    font-family: 'VT323', monospace;
 }
 
 /* FOOTER PROPERTIES */
