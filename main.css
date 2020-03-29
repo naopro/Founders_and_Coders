@@ -1,17 +1,24 @@
 /* TITLE OF WEBSITE */
 #pg-title {
-    background-color: rgb(194, 183, 207);
-    padding: 25px;
-    
+    background-color: rgb(218, 199, 240, 0.4);
+    padding: 15px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 /* BACKGROUND COLOUR */
 body {
-    background-color: rgb(244, 235, 229);
-    /* background-image: url(./imgs/sunflower.jpg); */
-    background-repeat: no-repeat;
+    background-color: rgb(251, 242, 231);
+}
+
+#opener {
+    height: 610px;
+    background-image: url(./images/canvas.jpg);
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 /* TEXT PROPERTIES */
@@ -38,50 +45,65 @@ p {
 
 #how-title {
     text-align: center;
-    background-color: rgb(194, 183, 207, 0.6);
+    background-color: rgb(218, 199, 240, 0.4);
     padding: 30px;
-    margin-top: 30px;
-    box-shadow: 0px 0px 5px 0px rgb(212, 207, 207);
-    border-top: 2px dashed #D0B8C9;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 #how-content{
     padding: 10px;
     height: 200px;
-    border-top: 2px dashed #D0B8C9;
-    border-bottom: 2px dashed #D0B8C9;
+    border-top: 0.8px dashed #D0B8C9;
+    border-bottom: 0.8px dashed #D0B8C9;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 #who-title {
     text-align: center;
-    background-color: rgb(194, 183, 207, 0.6);
+    background-color: rgb(218, 199, 240, 0.4);
     padding: 30px;
-    box-shadow: 0px 0px 5px 0px rgb(212, 207, 207);
+    margin-left: -10px;
+    margin-right: -10px;
 }
+
+
 
 #who-content{
     padding: 10px;
     height: 200px;
-    border-top: 2px dashed #D0B8C9;
-    border-bottom: 2px dashed #D0B8C9;
+    border-top: 0.8px dashed #D0B8C9;
+    border-bottom: 0.8px dashed #D0B8C9;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
-/* #why {
-} */
 
 #why-content{
     padding: 10px;
     height: 400px;
-    border-top: 2px dashed #D0B8C9;
+    border-top: 0.8px dashed #D0B8C9;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 
 #why-title {
     text-align: center;
-    background-color: rgb(194, 183, 207, 0.6);
+    background-color: rgb(218, 199, 240, 0.4);
     padding: 30px 5px;
     box-shadow: 0px 0px 5px 0px rgb(212, 207, 207);
-    
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#why-title, span.lawyer-text {
+    font-family: 'Prata', serif;
+}
+
+#why-title, span.w-dev-text {
+    font-family: 'VT323', monospace;
 }
 
 /* FOOTER PROPERTIES */
@@ -90,4 +112,6 @@ footer {
     font-family: 'Courier';
     text-align: center;
     padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
