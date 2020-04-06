@@ -36,6 +36,7 @@
   height: fit-content;
   width: fit-content;
   margin-top: 170px;
+  border: 3px double grey;
 }
 
 /* FIRST TWO LOGOS */
@@ -84,10 +85,10 @@ p {
 }
 
 /* CONTENT PROPERTIES */
-.content {
+.content-1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   background-image: url(./images/canvas.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -95,11 +96,11 @@ p {
   margin-right: -10px;
 }
 
-.desc {
+.desc-1 {
   text-align: center;
   background-color: rgb(251, 242, 231);
   height: fit-content;
-  width: fit-content;
+  width: 650px;
   margin-top: 60px;
   padding: 20px;
   border: 3px groove grey;
