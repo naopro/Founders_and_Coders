@@ -1,222 +1,256 @@
 /* TITLE BANNER */
 .pg-title {
-    background-color: rgb(234, 224, 245);
-    padding: 5px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-    display: flex;
-    justify-content: space-between;
+  background-color: rgb(234, 224, 245);
+  padding: 5px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* BACKGROUND IMAGE */
 .opener {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 590px;
-    background-image: url(./images/canvas.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-left: -10px;
-    margin-right: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 590px;
+  background-image: url(./images/canvas.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 /* PIC OF NAOMI */
 .nao-pic {
-    margin-top: 50px;
-    border-radius: 10%;
-    border: 3px solid violet;
+  margin-top: 50px;
+  border-radius: 10%;
+  border: 3px solid violet;
 }
 
 .info-box {
-    padding: 30px;
-    text-align: justify;
-    background-color: rgb(251, 242, 231);
-    height: fit-content;
-    width: fit-content;
-    margin-top: 170px;
+  padding: 30px;
+  text-align: justify;
+  background-color: rgb(251, 242, 231);
+  height: fit-content;
+  width: fit-content;
+  margin-top: 170px;
 }
 
 /* FIRST TWO LOGOS */
 .logo {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .logo:hover {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 /* GENERAL TEXT PROPERTIES */
 h1 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
 }
 
 h2 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
 
 h3 {
-    font-size: xxx-large;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
+  font-size: xxx-large;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 h4 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
 }
 
 p {
-    font-family: 'Inter', sans-serif;
-    font-weight: 200;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
 }
 
 /* How does a lawyer... */
 .how-title {
-    text-align: center;
-    background-color: rgb(234, 224, 245);
-    padding: 10px;
-    margin-left: -10px;
-    margin-right: -10px;
+  text-align: center;
+  background-color: rgb(234, 224, 245);
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 /* CONTENT PROPERTIES */
 .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-image: url(./images/canvas.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-left: -10px;
-    margin-right: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-image: url(./images/canvas.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .desc {
-    text-align: center;
-    background-color: rgb(251, 242, 231);
-    height: fit-content;
-    width: fit-content;
-    margin-top: 60px;
-    padding: 20px;
-    border: 3px groove grey;
+  text-align: center;
+  background-color: rgb(251, 242, 231);
+  height: fit-content;
+  width: fit-content;
+  margin-top: 60px;
+  padding: 20px;
+  border: 3px groove grey;
 }
 
 .content-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-image: url(./images/canvas.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-left: -10px;
-    margin-right: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-image: url(./images/canvas.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .desc-2 {
-    text-align: center;
-    background-color: rgb(251, 242, 231);
-    height: fit-content;
-    width: fit-content;
-    margin-top: 60px;
-    padding: 20px;
-    border: 3px groove grey;
+  text-align: center;
+  background-color: rgb(251, 242, 231);
+  height: fit-content;
+  width: fit-content;
+  margin-top: 60px;
+  padding: 20px;
+  border: 3px groove grey;
 }
 
 .content-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-image: url(./images/canvas.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-left: -10px;
-    margin-right: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-image: url(./images/canvas.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .desc-3 {
-    text-align: center;
-    background-color: rgb(251, 242, 231);
-    height: fit-content;
-    width: fit-content;
-    margin-top: 60px;
-    padding: 20px;
-    border: 3px groove grey;
+  text-align: center;
+  background-color: rgb(251, 242, 231);
+  height: fit-content;
+  width: fit-content;
+  margin-top: 60px;
+  padding: 20px;
+  border: 3px groove grey;
 }
 
 .content-4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-image: url(./images/canvas.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-left: -10px;
-    margin-right: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url(./images/canvas.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .desc-4 {
-    text-align: center;
-    background-color: rgb(251, 242, 231);
-    height: fit-content;
-    width: fit-content;
-    margin-top: 60px;
-    padding: 20px;
-    border: 3px groove grey;
+  text-align: center;
+  background-color: rgb(251, 242, 231);
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 200px;
+  padding: 20px;
+  border: 3px groove grey;
+}
+
+#carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 65px;
+  margin-right: 90px;
+}
+
+#carousel #carousel-img {
+  border: 3px groove grey;
+  width: 350px;
+  height: 350px;
+  padding: 30px;
+  background-color: rgb(251, 242, 231);
+}
+
+#carousel #left-button {
+  font-size: 29px;
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(212, 205, 214, 0.2);
+  border: 0.3px groove grey;
+  border-radius: 1px;
+}
+
+#carousel #right-button {
+  font-size: 29px;
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(212, 205, 214, 0.2);
+  border: 0.3px groove grey;
+  border-radius: 1px;
 }
 
 .content-5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-image: url(./images/canvas.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-left: -10px;
-    margin-right: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-image: url(./images/canvas.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .desc-5 {
-    text-align: center;
-    background-color: rgb(251, 242, 231);
-    height: fit-content;
-    width: fit-content;
-    margin-top: 60px;
-    padding: 20px;
-    border: 3px groove grey;
+  text-align: center;
+  background-color: rgb(251, 242, 231);
+  height: fit-content;
+  width: fit-content;
+  margin-top: 60px;
+  padding: 20px;
+  border: 3px groove grey;
 }
 
 .summary {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-image: url(./images/canvas.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-left: -10px;
-    margin-right: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-image: url(./images/canvas.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .summary-desc {
-    text-align: center;
-    background-color: rgb(251, 242, 231);
-    height: fit-content;
-    width: fit-content;
-    margin-top: 60px;
-    padding: 20px;
-    border: 3px groove grey;
-    margin-bottom: 90px;
+  text-align: center;
+  background-color: rgb(251, 242, 231);
+  height: fit-content;
+  width: fit-content;
+  margin-top: 60px;
+  padding: 20px;
+  border: 3px groove grey;
+  margin-bottom: 90px;
 }
 
 /* FOOTER PROPERTIES */
 footer {
-    background-color: rgb(194, 183, 207);
-    font-family: 'Courier';
-    text-align: center;
-    padding: 10px;
-    margin-left: -10px;
-    margin-right: -10px;
+  background-color: rgb(194, 183, 207);
+  font-family: "Courier";
+  text-align: center;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
