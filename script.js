@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
         "./images/carousel_images/vessel.jpg"
     ];
 
+    // USE OF BUTTONS TO CHANGE IMAGES //
+
     // THE POSITION THAT THE FIRST CLICK GOES TO: //
     var imgIndex = 1;
 
@@ -28,5 +30,17 @@ document.addEventListener('DOMContentLoaded', function () {
         carouselImages.setAttribute("src", imgArray[imgGloss]);
         imgGloss--
         if (imgGloss < 0) { imgGloss = 3; };
+
+        // USE OF KEYBOARD PRESS TO CHANGE IMAGES //
+
+        // [ArrowLeft]
+        // to do: assign the carousel div to a var, isolate the required key press, (if) that keypress, set the src to iterate through the array
+
+
+
+
+        // [ArrowRight]
+
+
     });
 });
