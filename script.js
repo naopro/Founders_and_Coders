@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     var leftButton = document.getElementById("left-button");
-    // var rightButton = document.getElementById("right-button");
+    var rightButton = document.getElementById("right-button");
     var carouselImages = document.getElementById("carousel-img");
 
     var imgArray = [
@@ -11,9 +11,15 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
     var imgIndex = 1;
 
-    leftButton.addEventListener('click', function () {
+    rightButton.addEventListener('click', function () {
         carouselImages.setAttribute("src", imgArray[imgIndex]);
         imgIndex++;
         if (imgIndex > 3) { imgIndex = 0; };
     });
+
+    // rightButton.addEventListener('click', function () {
+    //     carouselImages.setAttribute("src", imgArray[imgIndex]);
+    //     imgIndex++;
+    //     if (imgIndex > 3) { imgIndex = 0; };
+    // });
 });
