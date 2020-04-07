@@ -30,17 +30,20 @@ document.addEventListener('DOMContentLoaded', function () {
         carouselImages.setAttribute("src", imgArray[imgGloss]);
         imgGloss--
         if (imgGloss < 0) { imgGloss = 3; };
-
-        // USE OF KEYBOARD PRESS TO CHANGE IMAGES //
-
-        // [ArrowLeft]
-        // to do: assign the carousel div to a var, isolate the required key press, (if) that keypress, set the src to iterate through the array
-
-
-
-
-        // [ArrowRight]
-
-
     });
+    // USE OF KEYBOARD PRESS TO CHANGE IMAGES //
+
+    // [ArrowLeft]
+    // to do: assign the carousel div to a var, isolate the required key press, (if) that keypress, set the src to iterate through the array
+
+    var theCarousel = document.getElementById("carousel");
+    theCarousel.addEventListener('keydown', function (press) {
+        if (press.key == 'ArrowRight') { carouselImages.setAttribute("src", imgArray[imgIndex]); }
+    }
+
+
+    // [ArrowRight]
+
+
+
 });
