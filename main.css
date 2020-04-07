@@ -178,6 +178,7 @@ p {
 }
 
 #carousel #carousel-img {
+  justify-content: space-evenly;
   border: 3px groove grey;
   width: 350px;
   height: 350px;

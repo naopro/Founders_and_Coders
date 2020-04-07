@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // [ArrowLeft]
     // to do: assign the carousel div to a var, isolate the required key press, (if) that keypress, set the src to iterate through the array
 
-    var theCarousel = document.getElementById("carousel");
-    theCarousel.addEventListener('keydown', function (press) {
-        if (press.key == 'ArrowRight') { carouselImages.setAttribute("src", imgArray[imgIndex]); }
-    }
+    // var theCarousel = document.getElementById("carousel");
+    // theCarousel.addEventListener('keydown', function (press) {
+    //     if (press.key == 'ArrowRight') { carouselImages.setAttribute("src", imgArray[imgIndex]); }
+    // }
 
 
     // [ArrowRight]
