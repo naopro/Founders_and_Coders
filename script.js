@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     rightButton.addEventListener('click', function () {
         carouselImages.setAttribute("src", imgArray[imgIndex]);
         imgIndex++;
-        if (imgIndex > 3) { imgIndex = 0; };
+        if (imgIndex > 3) { imgIndex = 3; };
     });
 
     // THE POSITION THAT THE FIRST CLICK GOES TO: //
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
     leftButton.addEventListener('click', function () {
         carouselImages.setAttribute("src", imgArray[imgGloss]);
         imgGloss--
-        if (imgGloss < 0) { imgGloss = 3; };
+        if (imgGloss < 0) { imgGloss = 0; };
     });
     // USE OF KEYBOARD PRESS TO CHANGE IMAGES //
 

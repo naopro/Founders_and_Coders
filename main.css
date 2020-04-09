@@ -1,12 +1,11 @@
 /* TITLE BANNER */
 .pg-title {
   background-color: rgb(234, 224, 245);
-  padding: 5px;
-  margin-top: -10px;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin: -10px;
+  padding: 0px 20px 5px 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* BACKGROUND IMAGE */
@@ -79,13 +78,20 @@ p {
 .how-title {
   text-align: center;
   background-color: rgb(234, 224, 245);
-  padding: 10px;
+  padding: 2px;
+  margin-top: -5px;
   margin-left: -10px;
   margin-right: -10px;
+  margin-bottom: -5px;
+}
+
+.how-title a {
+  text-decoration: none;
+  color: rgb(54, 17, 97);
 }
 
 /* CONTENT PROPERTIES */
-.content-1 {
+#content-1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -109,7 +115,8 @@ p {
 .content-2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-around;
   background-image: url(./images/canvas.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -117,11 +124,21 @@ p {
   margin-right: -10px;
 }
 
-.desc-2 {
-  text-align: center;
+.content-2-img {
   background-color: rgb(251, 242, 231);
   height: fit-content;
   width: fit-content;
+  border: 3px groove grey;
+  order: 2;
+  margin-top: 50px;
+  padding: 15px;
+}
+.desc-2 {
+  order: 1;
+  text-align: center;
+  background-color: rgb(251, 242, 231);
+  height: fit-content;
+  width: 400px;
   margin-top: 60px;
   padding: 20px;
   border: 3px groove grey;
