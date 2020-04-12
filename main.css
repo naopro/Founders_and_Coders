@@ -128,9 +128,9 @@ p {
 
 hr {
   width: 50%;
-  color: goldenrod;
-  background-color: goldenrod;
   height: 1px;
+  background: rgb(209, 196, 152);
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
 /* How does a lawyer... */
