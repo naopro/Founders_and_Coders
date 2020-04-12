@@ -1,3 +1,49 @@
+/* RESPONSIVENESS */
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 21px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+  
+  h3 {
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+  
+  h4 {
+    font-size: 9px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+  }
+  
+  p {
+    font-size: 9px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+  }
+  .nao-pic {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .content-4 {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+
+
+
 /* TITLE BANNER */
 .pg-title {
   background-color: rgb(234, 224, 245);
@@ -49,29 +95,42 @@
 
 /* GENERAL TEXT PROPERTIES */
 h1 {
+  font-size: 42px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 
 h2 {
+  font-size: 26px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
 
 h3 {
-  font-size: xxx-large;
+  font-size: 28px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
 h4 {
+  font-size: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 300;
 }
 
 p {
+  font-size: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 200;
+}
+
+/* MISCELLANEOUS */
+
+hr {
+  width: 50%;
+  color: goldenrod;
+  background-color: goldenrod;
+  height: 1px;
 }
 
 /* How does a lawyer... */
@@ -168,30 +227,35 @@ p {
 .content-4 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-image: url(./images/canvas.jpg);
   background-size: cover;
   background-attachment: fixed;
   margin-left: -10px;
   margin-right: -10px;
+  padding: 30px;
 }
 
 .desc-4 {
+  flex-grow: 2;
   text-align: center;
   background-color: rgb(251, 242, 231);
+  height: fit-content;
+  width: fit-content;
   margin-top: 60px;
-  margin-left: 50px;
-  margin-right: 200px;
   padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   border: 3px groove grey;
 }
 
 #carousel {
+  flex-grow: 1;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 65px;
-  margin-right: 90px;
+  /* margin-right: 90px; */
 }
 
 #carousel #carousel-img {
@@ -258,7 +322,7 @@ p {
   background-color: rgb(251, 242, 231);
   height: fit-content;
   width: fit-content;
-  margin-top: 60px;
+  margin: 80px 90px 50px 90px;
   padding: 20px;
   border: 3px groove grey;
   margin-bottom: 90px;
