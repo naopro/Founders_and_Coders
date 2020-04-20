@@ -58,8 +58,9 @@
 .opener {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  height: 590px;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100%;
   background-image: url(./images/canvas.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -68,19 +69,21 @@
 }
 
 /* PIC OF NAOMI */
-.nao-pic {
-  margin-top: 50px;
+img.nao-pic {
+  margin: 2%;
   border-radius: 10%;
   border: 3px solid violet;
+  width: 40%;
+  height: 40%;
 }
 
-.info-box {
-  padding: 30px;
+.info {
+  padding: 20px;
   text-align: justify;
   background-color: rgb(251, 242, 231);
   height: fit-content;
   width: fit-content;
-  margin-top: 170px;
+  margin: 2%;
   border: 3px double grey;
 }
 
