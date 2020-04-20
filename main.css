@@ -149,7 +149,7 @@ hr {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 65px;
+  justify-content: center;
 }
 
 #carousel #carousel-img {
@@ -161,7 +161,13 @@ hr {
   background-color: rgb(251, 242, 231);
 }
 
-#carousel #left-button {
+#controls{
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(251, 242, 231, 0.5);
+  width: fit-content;
+}
+#controls #left-button {
   font-size: 29px;
   height: fit-content;
   width: fit-content;
@@ -170,7 +176,16 @@ hr {
   border-radius: 1px;
 }
 
-#carousel #right-button {
+#controls #pp-button {
+  font-size: 29px;
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(212, 205, 214, 0.2);
+  border: 0.3px groove grey;
+  border-radius: 1px;
+}
+
+#controls #right-button {
   font-size: 29px;
   height: fit-content;
   width: fit-content;
@@ -375,4 +390,4 @@ footer {
     margin-left: -10px;
     margin-right: -10px;
   } */
-}
+/* } */
