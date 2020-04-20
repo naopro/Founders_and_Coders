@@ -128,7 +128,7 @@ p {
   font-weight: 200;
 }
 
-/* MISCELLANEOUS */
+/* HORIZONTAL LINES */
 
 hr {
   width: 50%;
@@ -137,24 +137,21 @@ hr {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-/* How does a lawyer... */
+/* Law to WebDev */
 .how-title {
   text-align: center;
   background-color: rgb(234, 224, 245);
-  padding: 2px;
-  margin-top: -5px;
+  padding: 1.5%;
   margin-left: -10px;
   margin-right: -10px;
-  margin-bottom: -5px;
 }
 
 .how-title a {
   text-decoration: none;
-  color: rgb(54, 17, 97);
 }
 
-/* CONTENT PROPERTIES */
-#content-1 {
+/* CONTAINER PROPERTIES */
+#content {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -163,94 +160,27 @@ hr {
   background-attachment: fixed;
   margin-left: -10px;
   margin-right: -10px;
+  padding: 2%;
 }
 
-.desc-1 {
+#desc {
   text-align: center;
   background-color: rgb(251, 242, 231);
   height: fit-content;
-  width: 650px;
-  margin-top: 60px;
-  padding: 20px;
+  width: 60%;
+  margin: 5%;
   border: 3px groove grey;
+  padding: 2%;
 }
 
-.content-2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  background-image: url(./images/canvas.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
-.content-2-img {
-  background-color: rgb(251, 242, 231);
-  height: fit-content;
-  width: fit-content;
-  border: 3px groove grey;
+#book-img {
   order: 2;
+  background-color: rgb(251, 242, 231);
+  height: fit-content;
+  width: fit-content;
+  border: 3px groove grey;
   margin-top: 50px;
-  padding: 15px;
-}
-.desc-2 {
-  order: 1;
-  text-align: center;
-  background-color: rgb(251, 242, 231);
-  height: fit-content;
-  width: 400px;
-  margin-top: 60px;
-  padding: 20px;
-  border: 3px groove grey;
-}
-
-.content-3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-image: url(./images/canvas.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
-.desc-3 {
-  text-align: center;
-  background-color: rgb(251, 242, 231);
-  height: fit-content;
-  width: fit-content;
-  margin-top: 60px;
-  padding: 20px;
-  border: 3px groove grey;
-}
-
-.content-4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-image: url(./images/canvas.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  margin-left: -10px;
-  margin-right: -10px;
-  padding: 30px;
-}
-
-.desc-4 {
-  flex-grow: 2;
-  text-align: center;
-  background-color: rgb(251, 242, 231);
-  height: fit-content;
-  width: fit-content;
-  margin-top: 60px;
-  padding: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-  border: 3px groove grey;
+  padding: 1%;
 }
 
 #carousel {
@@ -287,27 +217,6 @@ hr {
   background-color: rgb(212, 205, 214, 0.2);
   border: 0.3px groove grey;
   border-radius: 1px;
-}
-
-.content-5 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-image: url(./images/canvas.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
-.desc-5 {
-  text-align: center;
-  background-color: rgb(251, 242, 231);
-  height: fit-content;
-  width: fit-content;
-  margin-top: 60px;
-  padding: 20px;
-  border: 3px groove grey;
 }
 
 .summary {
