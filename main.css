@@ -1,49 +1,3 @@
-/* RESPONSIVENESS */
-
-@media (max-width: 400px) {
-  h1 {
-    font-size: 28px;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-  }
-  
-  h2 {
-    font-size: 20px;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-  }
-  
-  h3 {
-    font-size: 18px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-  }
-  
-  h4 {
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    font-weight: 300;
-  }
-  
-  p {
-    font-size: 14px;
-    font-family: "Inter", sans-serif;
-    font-weight: 200;
-  }
-  .nao-pic {
-    width: fit-content;
-    height: fit-content;
-  }
-
-  .content-4 {
-    width: fit-content;
-    height: fit-content;
-  }
-}
-
-
-
-
 /* TITLE BANNER */
 .pg-title {
   background-color: rgb(234, 224, 245);
@@ -55,36 +9,41 @@
 }
 
 /* BACKGROUND IMAGE */
-.opener {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  height: 100%;
+main {
   background-image: url(./images/canvas.jpg);
   background-size: cover;
   background-attachment: fixed;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin: 0px -10px 0px -10px;
+}
+
+#opener {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 5%;
+}
+
+#nao-pic {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
 }
 
 /* PIC OF NAOMI */
-img.nao-pic {
-  margin: 2%;
+.naomi {
   border-radius: 10%;
   border: 3px solid violet;
-  width: 40%;
-  height: 40%;
+  width: 80%;
+  height: 80%;
 }
 
-.info {
-  padding: 20px;
-  text-align: justify;
+#bio {
+  text-align: left;
   background-color: rgb(251, 242, 231);
-  height: fit-content;
-  width: fit-content;
-  margin: 2%;
-  border: 3px double grey;
+  border: 3px groove grey;
+  padding: 2%;
+  width: 115%;
 }
 
 /* FIRST TWO LOGOS */
@@ -151,6 +110,7 @@ hr {
 }
 
 /* CONTAINER PROPERTIES */
+
 #content {
   display: flex;
   flex-direction: row;
@@ -190,7 +150,6 @@ hr {
   flex-direction: row;
   align-items: center;
   margin-top: 65px;
-  /* margin-right: 90px; */
 }
 
 #carousel #carousel-img {
@@ -227,28 +186,6 @@ hr {
   border-radius: 1px;
 }
 
-.summary {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-image: url(./images/canvas.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
-.summary-desc {
-  text-align: center;
-  background-color: rgb(251, 242, 231);
-  height: fit-content;
-  width: fit-content;
-  margin: 80px 90px 50px 90px;
-  padding: 20px;
-  border: 3px groove grey;
-  margin-bottom: 90px;
-}
-
 /* FOOTER PROPERTIES */
 footer {
   background-color: rgb(194, 183, 207);
@@ -257,4 +194,185 @@ footer {
   padding: 10px;
   margin-left: -10px;
   margin-right: -10px;
+}
+
+/* RESPONSIVENESS
+@media screen and (max-width: 600px) {
+  .pg-title {
+    background-color: rgb(234, 224, 245);
+    margin: -10px;
+    padding: 0px 20px 5px 20px;
+    display: flex;
+    justify-content: space-between;
+  } */
+  
+  /* BACKGROUND IMAGE */
+  /* main {
+    background-color: white;
+    margin: 0px -10px 0px -10px;
+  } */
+  
+  /* PIC OF NAOMI */
+  /* #nao-pic {
+    justify-content: center;
+    border: none;
+    order: 1;
+    width: 70%;
+    height: 0%;
+    padding: 0;
+  }
+
+  img.naomi {
+    width: 100%;
+    padding: 0;
+  } */
+  
+  /* FIRST TWO LOGOS */
+  /* .logo {
+    border-radius: 50%;
+  }
+  
+  .logo:hover {
+    background-color: whitesmoke;
+  } */
+  
+  /* GENERAL TEXT PROPERTIES */
+  /* h1 {
+    font-size: 42px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+  
+  h3 {
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+  }
+  
+  p {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    line-height: 1.7;
+    font-weight: 200;
+  } */
+  
+  /* HORIZONTAL LINES */
+  
+  /* hr {
+    width: 50%;
+    height: 1px;
+    background: rgb(209, 196, 152);
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  } */
+  
+  /* Law to WebDev */
+  /* .how-title {
+    text-align: center;
+    background-color: rgb(234, 224, 245);
+    padding: 1.5%;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  
+  .how-title a {
+    text-decoration: none;
+  } */
+  
+  /* CONTAINER PROPERTIES */
+  
+  /* #opener {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  }
+  
+  #content {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 2%;
+    border: none;
+    background-image: none;
+    background-color: white;
+    width: 100%;
+  }
+  
+  #desc {
+    flex-grow: 1;
+    order: 1;
+    text-align: center;
+    background-color: rgb(251, 242, 231);
+    border: none;
+    width: 100%;
+  }
+  
+  #book-img {
+    order: 1;
+    background-color: rgb(251, 242, 231);
+    margin: none;
+  }
+  
+  #carousel {
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #carousel #carousel-img {
+    order: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(251, 242, 231);
+  }
+  
+  #carousel #left-button {
+    font-size: 29px;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(212, 205, 214, 0.2);
+    border: 0.3px groove grey;
+    border-radius: 1px;
+  }
+  
+  #carousel #right-button {
+    font-size: 29px;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(212, 205, 214, 0.2);
+    border: 0.3px groove grey;
+    border-radius: 1px;
+  }
+  
+  #cert {
+    width: 40%;
+    height: 40%;
+    border: 4px groove grey;
+    border-radius: 1px;
+    order: 1; */
+  /* } */
+  
+  /* FOOTER PROPERTIES */
+  /* footer {
+    background-color: rgb(194, 183, 207);
+    font-family: "Courier";
+    text-align: center;
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+  } */
 }
