@@ -1,8 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     var leftButton = document.getElementById("left-button");
     var rightButton = document.getElementById("right-button");
+    // var playpauseButton = document.getElementsById("pp-button");
     var carouselImages = document.getElementById("carousel-img");
 
+    // IMAGES TO SHOW IN THE CAROUSEL //
     var imgArray = [
         "./images/carousel_images/empirestate.jpg",
         "./images/carousel_images/govball.jpg",
@@ -10,27 +12,48 @@ document.addEventListener('DOMContentLoaded', function () {
         "./images/carousel_images/vessel.jpg"
     ];
 
-    // USE OF BUTTONS TO CHANGE IMAGES //
+    var imgIndex = 0;
+
+    // USE OF THE BUTTONS TO CHANGE IMAGES //
+    function rightButtonControl() {
+        // THE POSITION THAT THE FIRST RIGHT CLICK GOES TO: //
+        // RIGHT BUTTON ORDER: SRC, 1, 2, 3, 0 // AS DESIRED
+        rightButton.addEventListener('click', function () {
+            carouselImages.setAttribute("src", imgArray[imgIndex + 1]);
+            imgIndex++;
+            // STOPS THE ARRAY ONCE IT GETS TO THE END OF THE ARRAY PICS
+            if (imgIndex >= 3) { imgIndex = 2; };
+        });
+    }
+    rightButtonControl()
+
+    function leftButtonControl() {
+        // THE POSITION THAT THE FIRST RIGHT CLICK GOES TO: //
+        leftButton.addEventListener('click', function () {
+            carouselImages.setAttribute("src", imgArray[imgIndex--]);
+            // STOPS THE ARRAY ONCE IT GETS TO THE END OF THE ARRAY PICS
+            if (imgIndex < 0) { imgIndex = 0; };
+        });
+    }
+    leftButtonControl();
 
     // THE POSITION THAT THE FIRST CLICK GOES TO: //
-    var imgIndex = 1;
 
-    // RIGHT BUTTON ORDER: SRC, 1, 2, 3, 0 // AS DESIRED
-    rightButton.addEventListener('click', function () {
-        carouselImages.setAttribute("src", imgArray[imgIndex]);
-        imgIndex++;
-        if (imgIndex > 3) { imgIndex = 3; };
-    });
-
-    // THE POSITION THAT THE FIRST CLICK GOES TO: //
-    var imgGloss = 3
 
     // LEFT BUTTON ORDER: SRC, 3, 2, 1, 0
-    leftButton.addEventListener('click', function () {
-        carouselImages.setAttribute("src", imgArray[imgGloss]);
-        imgGloss--
-        if (imgGloss < 0) { imgGloss = 0; };
-    });
+    // leftButton.addEventListener('click', function () {
+    //     carouselImages.setAttribute("src", imgArray[- 1]);
+    //     imgGloss--;
+    // };
+
+
+
+
+
+
+
+
+
     // USE OF KEYBOARD PRESS TO CHANGE IMAGES //
 
     // [ArrowLeft]
