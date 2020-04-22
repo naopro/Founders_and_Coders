@@ -15,7 +15,7 @@ main {
   background-size: cover;
   background-attachment: fixed;
   margin: 0 auto;
-  width: 100vw;
+  height: auto;
 
 }
 
@@ -30,7 +30,7 @@ main {
 #nao-pic {
   display: flex;
   width: 100vw;
-  height: fit-content;
+  height: auto;
   padding: 0;
   margin: 0;
 }
@@ -49,7 +49,7 @@ main {
   border: 3px groove grey;
   padding: 1%;
   width: 65vw;
-  height: fit-content;
+  height: auto;
 }
 
 /* FIRST TWO LOGOS */
@@ -129,7 +129,7 @@ hr {
 #desc {
   text-align: center;
   background-color: rgb(251, 242, 231);
-  height: fit-content;
+  height: auto;
   width: 60%;
   margin: 5%;
   border: 3px groove grey;
@@ -160,7 +160,7 @@ hr {
 #carousel #carousel-img {
   border: 3px groove grey;
   width: 450px;
-  height: 450px;
+  height: auto;
   padding: 40px;
   background-color: rgb(251, 242, 231);
 }
@@ -180,7 +180,7 @@ hr {
 
 #cert {
   width: 40vw;
-  height: 40vh;
+  height: auto;
   border: 4px groove grey;
   border-radius: 1px;
 }
@@ -343,15 +343,15 @@ footer {
   #book-img {
     order: 2;
     background-color: rgb(251, 242, 231);
-    height: 80vh;
-    width: 100vw;
+    height: auto;
+    width: 90vw;
     border: none;
     margin: 0;
     padding: 0;
   }
 
   img#book {
-    height: 80vh;
+    height: auto;
     width: 100vw;
   }
   
@@ -364,8 +364,8 @@ footer {
   
   #carousel #carousel-img {
     border: none;
-    width: 100vw;
-    height: 90vh;
+    width: 80vw;
+    height: auto;
     padding: 0;
     margin: 0;
     background-color: rgb(251, 242, 231);
