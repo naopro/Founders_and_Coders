@@ -182,7 +182,9 @@ footer {
 }
 
 /* RESPONSIVENESS */
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 320px) {
   .pg-title {
     background-color: rgb(234, 224, 245);
     display: flex;
@@ -366,3 +368,4 @@ footer {
     padding: 0;
   }
 }
+
