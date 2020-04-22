@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     var leftButton = document.getElementById("left-button");
     var rightButton = document.getElementById("right-button");
-    // var playpauseButton = document.getElementsById("pp-button");
+    // var playPauseButton = document.getElementsById("pp-button");
     var carouselImages = document.getElementById("carousel-img");
 
     // IMAGES TO SHOW IN THE CAROUSEL //
@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "./images/carousel_images/vessel.jpg"
     ];
 
+    // STARTING IMG //
     var imgIndex = 0;
 
     // USE OF THE R BUTTON TO PROCEED TO NEXT IMAGE //
@@ -35,6 +36,22 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     leftButtonControl();
 
+    // AUTOPLAY CAROUSEL //
+    var imgTime = setInterval(playPause, 4000);
+    function playPause() {
+        carouselImages.setAttribute("src", imgArray[imgIndex]);
+        carouselImages[imgIndex] = 'img';
+        imgIndex = (imgIndex + 1) % imgArray.length;
+        carouselImages[imgIndex] = 'img showing';
+    };
+    playPause();
+
+    // playPauseButton.addEventListener('click', function () {
+});
+
+
+
+
 
 
 
@@ -55,7 +72,3 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // [ArrowRight]
-
-
-
-});
