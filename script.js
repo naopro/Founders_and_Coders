@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var leftButton = document.getElementById("left-button");
-    var rightButton = document.getElementById("right-button");
-    // var playPauseButton = document.getElementsById("pp-button");
+    // WHERE THE IMG IS LOCATED ON THE PAGE //
     var carouselImages = document.getElementById("carousel-img");
 
     // IMAGES TO SHOW IN THE CAROUSEL //
@@ -16,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var imgIndex = 0;
 
     // USE OF THE R BUTTON TO PROCEED TO NEXT IMAGE //
+    var rightButton = document.getElementById("right-button");
     function rightButtonControl() {
         rightButton.addEventListener('click', function () {
             carouselImages.setAttribute("src", imgArray[imgIndex + 1]);
@@ -27,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     rightButtonControl()
 
     // USE OF THE L BUTTON TO REVERT TO PREVIOUS IMAGE //
+    var leftButton = document.getElementById("left-button");
     function leftButtonControl() {
         leftButton.addEventListener('click', function () {
             carouselImages.setAttribute("src", imgArray[imgIndex--]);
@@ -37,16 +37,37 @@ document.addEventListener('DOMContentLoaded', function () {
     leftButtonControl();
 
     // AUTOPLAY CAROUSEL //
-    var imgTime = setInterval(autoPlay, 4000);
+    var imgDuration = setInterval(autoPlay, 4000);
     function autoPlay() {
         carouselImages.setAttribute("src", imgArray[imgIndex]);
         carouselImages[imgIndex] = 'img';
         imgIndex = (imgIndex + 1) % imgArray.length;
         carouselImages[imgIndex] = 'img showing';
     };
-    autoPlay();
 
-    // playPauseButton.addEventListener('click', function () {
+
+    // PLAY & PAUSE BUTTON //
+    var playing = true;
+    var playPauseButton = document.getElementById("pp-button");
+
+    function pause() {
+        playing = false;
+        clearInterval(imgDuration);
+    }
+
+    function play() {
+        playing = true;
+        imgDuration = setInterval(autoPlay, 4000);
+    }
+
+    // ON CLICK: PLAY OR PAUSE THE IMAGES
+    playPauseButton.addEventListener('click', function () {
+        if (playing) {
+            pause();
+        } else {
+            play();
+        }
+    });
 });
 
 
