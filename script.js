@@ -37,14 +37,14 @@ document.addEventListener('DOMContentLoaded', function () {
     leftButtonControl();
 
     // AUTOPLAY CAROUSEL //
-    var imgTime = setInterval(playPause, 4000);
-    function playPause() {
+    var imgTime = setInterval(autoPlay, 4000);
+    function autoPlay() {
         carouselImages.setAttribute("src", imgArray[imgIndex]);
         carouselImages[imgIndex] = 'img';
         imgIndex = (imgIndex + 1) % imgArray.length;
         carouselImages[imgIndex] = 'img showing';
     };
-    playPause();
+    autoPlay();
 
     // playPauseButton.addEventListener('click', function () {
 });
