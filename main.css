@@ -168,6 +168,7 @@ hr {
 #controls {
   display: flex;
   width: fit-content;
+  justify-content: space-between;
 }
 
 #controls button {
@@ -178,8 +179,8 @@ hr {
 }
 
 #cert {
-  width: 40%;
-  height: 40%;
+  width: 40vw;
+  height: 40vh;
   border: 4px groove grey;
   border-radius: 1px;
 }
