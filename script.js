@@ -14,37 +14,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var imgIndex = 0;
 
-    // USE OF THE BUTTONS TO CHANGE IMAGES //
+    // USE OF THE R BUTTON TO PROCEED TO NEXT IMAGE //
     function rightButtonControl() {
-        // THE POSITION THAT THE FIRST RIGHT CLICK GOES TO: //
-        // RIGHT BUTTON ORDER: SRC, 1, 2, 3, 0 // AS DESIRED
         rightButton.addEventListener('click', function () {
             carouselImages.setAttribute("src", imgArray[imgIndex + 1]);
             imgIndex++;
-            // STOPS THE ARRAY ONCE IT GETS TO THE END OF THE ARRAY PICS
+            // STOP ONCE IT GETS TO THE END OF THE ARRAY PICS
             if (imgIndex >= 3) { imgIndex = 2; };
         });
     }
     rightButtonControl()
 
+    // USE OF THE L BUTTON TO REVERT TO PREVIOUS IMAGE //
     function leftButtonControl() {
-        // THE POSITION THAT THE FIRST RIGHT CLICK GOES TO: //
         leftButton.addEventListener('click', function () {
             carouselImages.setAttribute("src", imgArray[imgIndex--]);
-            // STOPS THE ARRAY ONCE IT GETS TO THE END OF THE ARRAY PICS
+            // STOP ONCE IT GETS TO THE END OF THE ARRAY PICS
             if (imgIndex < 0) { imgIndex = 0; };
         });
     }
     leftButtonControl();
-
-    // THE POSITION THAT THE FIRST CLICK GOES TO: //
-
-
-    // LEFT BUTTON ORDER: SRC, 3, 2, 1, 0
-    // leftButton.addEventListener('click', function () {
-    //     carouselImages.setAttribute("src", imgArray[- 1]);
-    //     imgGloss--;
-    // };
 
 
 
