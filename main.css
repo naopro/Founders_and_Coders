@@ -145,53 +145,28 @@ hr {
 }
 
 #carousel {
-  flex-grow: 1;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 #carousel #carousel-img {
-  justify-content: space-evenly;
   border: 3px groove grey;
-  width: 350px;
-  height: 350px;
-  padding: 30px;
+  width: 450px;
+  height: 450px;
+  padding: 40px;
   background-color: rgb(251, 242, 231);
 }
 
-#controls{
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(251, 242, 231, 0.5);
+#controls {
+  display: flex;
   width: fit-content;
-}
-#controls #left-button {
-  font-size: 29px;
-  height: fit-content;
-  width: fit-content;
-  background-color: rgb(212, 205, 214, 0.2);
-  border: 0.3px groove grey;
-  border-radius: 1px;
 }
 
-#controls #pp-button {
-  font-size: 29px;
-  height: fit-content;
-  width: fit-content;
-  background-color: rgb(212, 205, 214, 0.2);
-  border: 0.3px groove grey;
-  border-radius: 1px;
-}
-
-#controls #right-button {
-  font-size: 29px;
-  height: fit-content;
-  width: fit-content;
-  background-color: rgb(212, 205, 214, 0.2);
-  border: 0.3px groove grey;
-  border-radius: 1px;
+#controls button {
+  font-size: 50px;
+  border: none;
+  background-color: transparent;
 }
 
 #cert {
